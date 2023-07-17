@@ -1,0 +1,78 @@
+//##Basic Syxtax:
+
+
+- Access Modifiers: These modifiers control the scope of class and methods.
+- Understanding Access Modifiers: (https://www.geeksforgeeks.org/java-basic-syntax/)
+
+- data type in java ,  primitive data types & Non primitive data types
+- primitive : boolean , char , byte , short , int , long , float ,double 
+
+
+- Java Variable Type Conversion & Type Casting :
+//This process is Automatic, and non-explicit is known as Conversion
+double d;
+int i = 10;
+d = i;
+
+//This process is known as Type Casting ,  and explicitly specify the type cast operator
+double d = 10;
+int i;
+i = (int)d;
+
+
+//##Data Type Variables
+- There are three types of variables in Java: local variable ,instance variable,static variable
+- There are two types of data types in Java: primitive and non-primitive.
+- A local variable cannot be defined with "static" keyword.
+- static pada variable , nilainya dapat di pertahankan (https://www.javatpoint.com/static-keyword-in-java)
+
+-  Local Variables , other methods in the class aren't even aware that the variable exists.
+-  Instance Variable , It is called an instance variable because not shared among instances
+-  Static variable , can be share it among all the instances of the class
+- Entities ,  lightweight persistence domain object. Typically, an entity represents a table in a relational database, and each entity instance corresponds to a row in that table.
+
+
+
+//##class
+//refrence https://www.javatpoint.com/object-and-class-in-java
+- class in Java can contain: fields , methods , constructor , blocks , nested class and interface
+- Initializing an object means storing data into the object.
+//Java Program to illustrate how to define a class and fields  
+//Defining a Student class.  
+class Student{  
+ //defining fields  
+ int id;//field or data member or instance variable  
+ String name;  
+ //creating main method inside the Student class  
+ public static void main(String args[]){  
+  //Creating an object or instance  
+  Student s1=new Student();//creating an object of Student  
+  //Printing values of the object  
+  System.out.println(s1.id);//accessing member through reference variable  
+  System.out.println(s1.name);  
+ }  
+} 
+
+  //Creating objects  
+  Student s1=new Student();  
+  Student s2=new Student();  
+  //Initializing objects  
+  s1.id=101; 
+
+
+- There are many ways to create an object in java. They are:  new keyword,newInstance() method,clone() method, deserialization, factory method.
+
+- Anonymous object , Anonymous simply means nameless. An object which has no reference is known as an anonymous object. It can be used at the time of object creation only.
+
+8902216500348447
+
+//##Conditional
+
+
+
+//##Datastructures
+- As the name indicates itself, a Data Structure is a way of organizing the data in the memory so that it can be used efficiently
+- Some common data structures are array, linked list, stack, hashtable, queue, tree, heap, and graph.
+
+
+
